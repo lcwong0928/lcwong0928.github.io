@@ -28,7 +28,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank">Blogs</a></li>
+   <li class="nav-item"><a class="nav-link" href="assets/docs/wong_resume.pdf" target="_blank">Resume</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
@@ -158,7 +158,7 @@ let footer = $(`
     
 
     <div class="rounded-social-buttons tag">
-    <a class="social-button twitter" href="#" target="_blank">
+    <a class="social-button twitter" href="https://twitter.com/lcwong0928" target="_blank">
     <!-- SVG code for twitter icon -->
     <svg class="twitter-icon-footer" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" enable-background="new 0 0 500 500"
@@ -216,7 +216,7 @@ let footer = $(`
     </svg>
     </a>
 
-    <a class="social-button linkedin" href="" target="_blank" >
+    <a class="social-button linkedin" href="https://www.linkedin.com/in/lcwong0928/" target="_blank" >
     <!-- svg code for linkedin icon -->
       <svg class="linkedin-icon-footer" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24" fill="#0e76a8"
         stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
@@ -239,7 +239,7 @@ let footer = $(`
       </svg>
     </a>
 
-    <a class="social-button github" href="#" target="_blank">
+    <a class="social-button github" href="https://github.com/lcwong0928" target="_blank">
     <!-- SVG code for Github icon -->
     <svg class="github-icon-footer" width="45px" height="45px" viewBox="0 0 300 300">
         <!-- body -->
