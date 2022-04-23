@@ -4,147 +4,56 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
+    title: "PNC-27, a Chimeric p53-Penetratin Peptide Binds to HDM-2 in a p53 Peptide-like Structure, Induces Selective Membrane-Pore Formation and Leads to Cancer Cell Lysis",
     authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+      "Sarafraz-Yazdi, Ehsan, Stephen Mumin, Diana Cheung, Daniel Fridman, Brian Lin, Lawrence Wong, Ramon Rosal, Rebecca Rudolph, Matthew Frenkel, Anusha Thadi, William F. Morano, Wilbur B. Bowne, Matthew R. Pincus, and Josef Michl",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup1",
-    image: "assets/images/research-page/inteferenceNetwork.png",
-    citation: {
-      vancouver:
-        "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
+      "Biomedicines 2022, 10(5), 945",
+    researchYr: 2022,
+    image: "assets/images/research-page/pnc27.png",
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+      "PNC-27, a 32-residue peptide that contains an HDM-2 binding domain and a cell-penetrating peptide (CPP) leader sequence kills cancer, but not normal, cells by binding to HDM-2 associated with the plasma membrane and induces the formation of pores causing tumor cell lysis and necrosis. Conformational energy calculations on the structure of PNC-27 bound to HDM-2 suggest that 1:1 complexes form between PNC-27 and HDM-2 with the leader sequence pointing away from the complex. Immuno-scanning electron microscopy was carried out with cancer cells treated with PNC-27 and decorated with an anti-PNC-27 antibody coupled to 6 nm gold particles and an anti-HDM-2 antibody linked to 15 nm gold particles. We found multiple 6 nm- and 15 nm-labeled gold particles in approximately 1:1 ratios in layered ring-shaped structures in the pores near the cell surface suggesting that these complexes are important to the pore structure. No pores formed in the control, PNC-27-treated untransformed fibroblasts. Based on the theoretical and immuno-EM studies, we propose that the pores are lined by PNC-27 bound to HDM-2 at the membrane surface with the PNC-27 leader sequence lining the pores or by PNC-27 bound to HDM-2.",
     absbox: "absPopup1",
+    pdf: "https://www.mdpi.com/2227-9059/10/5/945",
+    pdfbox: "pdfPopup1",
+    link: "https://www.mdpi.com/2227-9059/10/5/945",
+    linkbox: "linkPopup1",
   },
 
   {
-    title: "A Call for More Rigor in Unsupervised Cross-lingual Learning",
+    title: "EHReader: A Medical Healthcare Question Answering System",
     authors:
-      "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
+      "Jerry Li, Lawrence Wong, Yang Xiang, Estelle Yao",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup2",
-    image: "assets/images/research-page/crossLingual.png",
-    citation: {
-      vancouver:
-        "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
+      "6.864 Advanced Natural Language Processing",
+    researchYr: 2021,
+    image: "assets/images/research-page/6_864.png",
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 2",
+      "Question answering (QA) is a prominent challenge in natural language processing research that requires machines to predict the correct answer to a posed question by extracting it from a given context. In some cases, QA tasks also involve determining \"answerability\": whether the answer is present at all in the passage. Recent research has begun to explore domain-specific QA systems, such as for usage in medical contexts. The growing adoption of electronic health records (EHR) in the healthcare system poses a specific QA challenge: retrieving answers from clinical notes to inform medical decisions. This paper introduces the EHReader model based on the Retrospective Reader architecture. The EHReader model incorporates quick reading and deep reading modules, enabling it to evaluate answerability and then verify the answer more comprehensively quickly. We compare EHReader to baseline DistilBERT and BioBERT models for medical QA tasks. The proposed model incorporating only the QuickReader module achieves state-of-the-art results on the benchmark EmrQA medical dataset and outperforms the baseline DistilBERT and BioBERT models.",
     absbox: "absPopup2",
+    pdf: "assets/docs/6_864.pdf",
+    pdfbox: "pdfPopup2",
+    link: "https://github.com/YangXiang-Sunny/MIT6.864_AdvNLP_Project",
+    linkbox: "linkPopup2",
   },
 
-  {
-    title:
-      "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
+   {
+    title: "Deep Learning for COVID-19 Diagnoses using Chest Imaging",
+    authors:
+      "William Phu, Lawrence Wong",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
+      "6.874 Computational Systems Biology",
     researchYr: 2020,
-    citebox: "popup3",
-    image: "assets/images/research-page/wordRepresentation.png",
-    citation: {
-      vancouver:
-        "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
+    image: "assets/images/research-page/6_874.png",
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 3",
+      "Coronavirus disease 2019 (COVID-19) first emerged in the city of Wuhan in Hubei province and has become a global pandemic affecting millions around the globe. Due to the limited availability in traditional antibody testing, rapid and accurate diagnosis of respiratory diseases became more urgent in the midst of the pandemic. In this paper, we propose a machine learning tool based on chest radiographs (X-rays) that can aid radiologists or healthcare professionals in the diagnosis of COVID-19. X-rays is an imaging technique used to aid the diagnosis of many respiratory diseases, including tuberculosis (TB) and pneumonia. This image classification task is best accomplished by leveraging effective convolutional neural network (CNN) architectures. We aim to validate several methods, including logistic regression, K-nearest neighbors, and various CNN architectures, in the classification of posterior-anterior X-ray images of patients with different respiratory diseases. The experimental results show promising results in differentiating chest X-rays of COVID-19 from normal cases. Specifically, the ResNet architecture achieved a weighted accuracy of 99.0\% (with a sensitivity of 97.0\%, a specificity of 100.0\%, and a precision of 100.0\%) on the binary dataset. However, the performance dropped significantly as other respiratory images are mixed in to create the multiclass dataset. Saliency maps, filters, and activation visualization are used to interpret these techniques. While X-rays should not be used as first-line tests to diagnose COVID-19, we believe our findings can aid in decisions made by medical professionals.",
     absbox: "absPopup3",
+    pdf: "assets/docs/6_874.pdf",
+    pdfbox: "pdfPopup3",
+    link: "https://github.com/lcwong0928/covid-diagnosis",
+    linkbox: "linkPopup3",
   },
 
-  {
-    title:
-      "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-    authors:
-      "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
-    conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup4",
-    image: "assets/images/research-page/dialogueState.png",
-    citation: {
-      vancouver:
-        "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 4",
-    absbox: "absPopup4",
-  },
-
-  {
-    title: "Dual Super-Resolution Learning for Semantic Segmentation",
-    authors: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup5",
-    image: "assets/images/research-page/semanticSegmentation.png",
-    citation: {
-      vancouver:
-        "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 5",
-    absbox: "absPopup5",
-  },
-
-  {
-    title: "Deep Unfolding Network for Image Super-Resolution",
-    authors: "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup6",
-    image: "assets/images/research-page/deepNetwork.png",
-    citation: {
-      vancouver:
-        "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 6",
-    absbox: "absPopup6",
-  },
-
-  {
-    title:
-      "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-    authors: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup7",
-    image: "assets/images/research-page/imageDecomposition.png",
-    citation: {
-      vancouver:
-        "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 7",
-    absbox: "absPopup7",
-  },
-  {
-    title:
-      "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-    authors:
-      "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup8",
-    image: "assets/images/research-page/neuralNetworks.jpg",
-    citation: {
-      vancouver:
-        "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 8",
-    absbox: "absPopup8",
-  },
 ];
 AOS.init();
 const fillData = () => {
@@ -156,10 +65,12 @@ const fillData = () => {
       authors,
       conferences,
       researchYr,
-      citebox,
-      citation,
+      linkbox,
+      link,
       absbox,
       abstract,
+      pdfbox,
+      pdf,
     }) =>
       (output += `
             <tr data-aos="zoom-in-left"> 
@@ -182,19 +93,21 @@ const fillData = () => {
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
                             ABSTRACT
                         </button>
-                
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                            CITE
+
+                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${pdfbox}" aria-expanded="false" aria-controls="${pdfbox}" href="${pdf}">
+                            LINKS
                         </button>
+
                     </div>
                     <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
                             ${abstract}    
                         </div>
                     </div>
-                    <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
+                    <div id="${pdfbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
-                            ${citation.vancouver}    
+                        <p><a href="${pdf}">Full text</a></p>
+                        <p><a href="${link}">More details</a></p>
                         </div>
                     </div>
                 </td>
