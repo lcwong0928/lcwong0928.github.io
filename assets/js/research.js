@@ -33,7 +33,7 @@ const research = [
     absbox: "absPopup2",
     pdf: "assets/docs/6_864.pdf",
     pdfbox: "pdfPopup2",
-    link: "https://github.com/YangXiang-Sunny/MIT6.864_AdvNLP_Project",
+    link: "https://github.com/lcwong0928/ehreader",
     linkbox: "linkPopup2",
   },
 
@@ -67,7 +67,7 @@ const research = [
     absbox: "absPopup4",
     pdf: "assets/docs/6_439.pdf",
     pdfbox: "pdfPopup4",
-    link: "https://github.com/lcwong0928",
+    link: "https://github.com/lcwong0928/cancer-classification",
     linkbox: "linkPopup4",
   },
 
@@ -84,7 +84,7 @@ const research = [
     absbox: "absPopup5",
     pdf: "assets/docs/6_047.pdf",
     pdfbox: "pdfPopup5",
-    link: "https://github.com/lcwong0928",
+    link: "https://github.com/lcwong0928/hotspot-prediction",
     linkbox: "linkPopup5",
   },
 
