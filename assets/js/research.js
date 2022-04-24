@@ -4,6 +4,23 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
+    title: "Time Series Anomaly Detection using Prediction-Reconstruction Mixture Errors",
+    authors:
+      "Lawrence Wong",
+    conferences:
+      "M.Eng. Thesis at Massachusetts Institution of Technology",
+    researchYr: 2022,
+    image: "assets/images/research-page/thesis.png",
+    abstract:
+      "Anomaly detection on time series is increasingly common in industrial applications across various domains that require monitoring metrics to prevent potential accidents and economic losses. The complications of anomaly detection revolve around a scarcity of labeled data and learning temporal correlation between multiple variables. Most successful unsupervised methods use single-timestamp prediction or the entire time series reconstruction. However, these methods are not mutually exclusive and can each offer complementary perspectives. First, this research explores the successes and limitations of prediction-based and reconstruction-based methods. Then, it compares the effect of attention-based architectures with LSTM-based architectures on existing models. Finally, this research proposes a novel autoencoder architecture capable of producing bi-directional predictions while simultaneously reconstructing the original time series by optimizing a joint objective function. Furthermore, an ablation study using a mixture of prediction and reconstruction errors demonstrates that this simple architecture outperforms other state-of-the-art models for anomaly detection on univariate and multivariate time series.",
+    absbox: "absPopup1",
+    pdf: "https://dspace.mit.edu/",
+    pdfbox: "pdfPopup1",
+    link: "https://github.com/sintel-dev/Orion",
+    linkbox: "linkPopup1",
+  },
+
+  {
     title: "PNC-27, a Chimeric p53-Penetratin Peptide Binds to HDM-2 in a p53 Peptide-like Structure, Induces Selective Membrane-Pore Formation and Leads to Cancer Cell Lysis",
     authors:
       "Sarafraz-Yazdi, Ehsan, Stephen Mumin, Diana Cheung, Daniel Fridman, Brian Lin, Lawrence Wong, Ramon Rosal, Rebecca Rudolph, Matthew Frenkel, Anusha Thadi, William F. Morano, Wilbur B. Bowne, Matthew R. Pincus, and Josef Michl",
