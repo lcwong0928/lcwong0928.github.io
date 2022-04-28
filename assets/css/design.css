@@ -102,30 +102,29 @@ div.picture-container:nth-child(8) {
     grid-row-start: 8;
     grid-row-end: 10;
 }
-
 .item1 div.picture-container:nth-child(1) {
-    background-image: url(../images/designs/ui_ux/1.svg);
+    background-image: url(../images/designs/recolored/yellow_flower.jpg);
 }
 .item1 div.picture-container:nth-child(2) {
-    background-image: url(../images/designs/ui_ux/2.svg);
+    background-image: url(../images/designs/recolored/red_flower.jpg);
 }
 .item1 div.picture-container:nth-child(3) {
-    background-image: url(../images/designs/ui_ux/3.svg);
+    background-image: url(../images/designs/recolored/apartment.jpg);
 }
 .item1 div.picture-container:nth-child(4) {
-    background-image: url(../images/designs/ui_ux/4.svg);
+    background-image: url(../images/designs/recolored/staircase.jpg);
 }
 .item1 div.picture-container:nth-child(5) {
-    background-image: url(../images/designs/ui_ux/5.svg);
+    background-image: url(../images/designs/recolored/wood.jpg);
 }
 .item1 div.picture-container:nth-child(6) {
-    background-image: url(../images/designs/ui_ux/6.svg);
+    background-image: url(../images/designs/recolored/sky.jpg);
 }
 .item1 div.picture-container:nth-child(7) {
-    background-image: url(../images/designs/ui_ux/7.svg);
+    background-image: url(../images/designs/recolored/noon.jpg);
 }
 .item1 div.picture-container:nth-child(8) {
-    background-image: url(../images/designs/ui_ux/8.svg);
+    background-image: url(../images/designs/recolored/ocean.jpg);
 }
 
 .item2 div.picture-container:nth-child(1) {

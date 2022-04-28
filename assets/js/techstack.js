@@ -10,6 +10,11 @@ const techStack = [
     langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
   },
   {
+    langImage: "assets/images/techstack-page/tensorflow.png",
+    langName: "HyperText Markup Language",
+    langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
+  },
+  {
     langImage: "assets/images/techstack-page/css.png",
     langName: "Cascading Style Sheets",
     langDesc: "<li>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</li>",
